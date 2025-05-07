@@ -10,17 +10,15 @@ Write your code in this editor and press "Run" button to compile and execute it.
 using namespace std;
 int main()
 {
-    float lado, perimetro;
+    float lado;  // declaro la primera variable de tipo float 
+    float perimetro; // declaro la segunda variable de tipo float
+     
+    cout << "Ingrese el valor del lado del cuadrado: ";  // Solicitar al usuario que ingrese el valor del lado
+    cin >> lado; // guarda el valor que ingreso el usuario en la variable lado
 
-    // Solicitar al usuario que ingrese el valor del lado
-    cout << "Ingrese el valor del lado del cuadrado: ";
-    cin >> lado;
+    perimetro = 4 * lado; // Calcula el perímetro multiplicando el valor de la variable lado por 4 y almacena el resultado en la variable perimetro
 
-    // Calcular el perímetro
-    perimetro = 4 * lado;
+    cout << "El perímetro del cuadrado es: " << perimetro << endl; // Muestra el valor de la variable perimetro
 
-    // Mostrar el resultado
-    cout << "El perímetro del cuadrado es: " << perimetro << endl;
-
-    return 0;
+    return 0; // aca termina el programa
 }
