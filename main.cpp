@@ -18,7 +18,7 @@ int main()
 
     perimetro = 4 * lado; // Calcula el perímetro multiplicando el valor de la variable lado por 4 y almacena el resultado en la variable perimetro
 
-    cout << "El perímetro del cuadrado es: " << perimetro << endl; // Muestra el valor de la variable perimetro
+    cout << "El perímetro del cuadrado es: " << perimetro << endl; // Muestra el valor guardado en la variable perimetro
 
     return 0; // aca termina el programa
 }
