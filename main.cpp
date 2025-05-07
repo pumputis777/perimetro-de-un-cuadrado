@@ -14,7 +14,6 @@ int main()
     float perimetro; // declaro la segunda variable de tipo float
 
     cout << "este programa te da el perimetro de un cuadrado" <<endl; // le indica al usuario lo que hace el programa
-  
     cout << "Ingrese el valor del lado del cuadrado: ";  // Solicitar al usuario que ingrese el valor del lado
     cin >> lado; // guarda el valor que ingreso el usuario en la variable lado
 
